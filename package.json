@@ -1,0 +1,41 @@
+{
+  "name": "@umd/ckeditor",
+  "version": "0.0.1",
+  "description": "CK Editor build for UMD resources",
+  "main": "build/index.js",
+  "scripts": {
+    "clean": "rm -rf build",
+    "start": "webpack -w --env NODE_ENV=development"
+  },
+  "author": "magnessjo@me.com",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/node": "^7.2.2",
+    "@ckeditor/ckeditor5-basic-styles": "^28.0.0",
+    "@ckeditor/ckeditor5-dev-utils": "^25.2.1",
+    "@ckeditor/ckeditor5-dev-webpack-plugin": "^25.2.1",
+    "@ckeditor/ckeditor5-easy-image": "^28.0.0",
+    "@ckeditor/ckeditor5-editor-classic": "^28.0.0",
+    "@ckeditor/ckeditor5-essentials": "^28.0.0",
+    "@ckeditor/ckeditor5-html-embed": "^28.0.0",
+    "@ckeditor/ckeditor5-image": "^28.0.0",
+    "@ckeditor/ckeditor5-paragraph": "^28.0.0",
+    "@ckeditor/ckeditor5-theme-lark": "^28.0.0",
+    "@ckeditor/ckeditor5-upload": "^28.0.0",
+    "loader-utils": "^2.0.0",
+    "mini-css-extract-plugin": "^1.6.0",
+    "path": "^0.12.7",
+    "postcss-loader": "3",
+    "raw-loader": "3",
+    "style-loader": "1",
+    "ts-loader": "7",
+    "typescript": "^4.3.2",
+    "webpack": "4",
+    "webpack-cli": "3",
+    "webpack-shell-plugin-next": "^2.1.1"
+  },
+  "postcss": {
+    "map": false
+  }
+}
